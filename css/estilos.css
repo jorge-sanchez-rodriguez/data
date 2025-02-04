@@ -1,0 +1,16 @@
+.fuente {
+    font-variant: small-caps;
+}
+
+.tama {
+    font-size: 2em;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.fondo {
+    background-color: rgb(235, 238, 243);
+}
+
+.fondo-encabezado{
+	 background-color: rgb(24, 173, 226);
+}

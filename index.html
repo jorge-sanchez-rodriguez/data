@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LocalStorage...</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="container fuente border p-4 mt-3 rounded">
+
+    <div class="border rounded fondo-encabezado bg-info pt-3">
+        <h1 class="lead text-center text-light tama">LocalStorage</h1>
+    </div>
+
+    <form class="border p-2 mt-4 rounded bg-light" id="formulario"  id="form" >
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="nombre" class="text-primary">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Juan Antonio">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-7">
+                <label for="apellidos" class="text-primary">Apellidos</label>
+                <input type="text" class="form-control" id="apellidos" placeholder="Pérez Fernández">
+
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-9">
+                <label for="direccion" class="text-primary">Dirección</label>
+                <input type="text" class="form-control" id="direccion" placeholder="Av. Real Fábrica">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-8">
+                <label for="web" class="text-primary">Web</label>
+                <input type="url" class="form-control" id="web" placeholder="https://www.diwriberadeltajo.es" value="https://www.diwriberadeltajo.es">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-8">
+                <label for="correo" class="text-primary">Correo</label>
+                <input type="email" class="form-control" id="correo" placeholder="joseantonioperez@riberadeltajo.es" value="joseantonioperez@riberadeltajo.es">
+            </div>
+        </div>
+
+        <div class="form-group rounded">
+            <button type="submit" id="enviar" class="btn btn-block btn-success">Enviar</button>
+            <button type="reset" class="btn btn-block btn-outline-info">Borrar</button>
+        </div>
+    </form>
+
+
+  
+    <script src="js/script.js "></script>
+</body>
+
+</html>
